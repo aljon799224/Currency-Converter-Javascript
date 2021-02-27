@@ -422,7 +422,7 @@ function dateNow() {
   const day = d.getDate();
   const year = d.getFullYear();
   const dateNow = (document.querySelector(
-    ".date"
+    ".dateNow"
   ).textContent = `${months[month]} ${day}, ${year}`);
 }
 
